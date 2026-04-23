@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unity-agent"
+version = "0.1.0"
+description = "A command line interface for Unity agent operations."
+keywords = ["Unity", "CLI", "Python"]
+authors = [{name = "Rizve Ahamed Raihan", email = "example@example.com"}]
+license = "MIT"
+
+[project.scripts]
+ua = "unity_agent.cli:main"
+unity-agent = "unity_agent.cli:main"
